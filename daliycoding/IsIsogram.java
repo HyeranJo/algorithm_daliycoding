@@ -1,3 +1,5 @@
+package daliycoding;
+
 import java.util.Arrays;
 
 public class IsIsogram {

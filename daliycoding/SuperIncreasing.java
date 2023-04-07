@@ -1,3 +1,5 @@
+package daliycoding;
+
 public class SuperIncreasing {
     public static void main(String[] args) {
         int[] data = {-2123, 843, -733, 1156, -919};

@@ -1,3 +1,5 @@
+package daliycoding;
+
 public class ComputeSquareRoot {
     public static void main(String[] args) {
         String output = computeSquareRoot(9);

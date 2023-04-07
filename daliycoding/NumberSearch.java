@@ -1,3 +1,5 @@
+package daliycoding;
+
 public class NumberSearch {
     public static void main(String[] args) {
         int output = numberSearch("Hello6 ");

@@ -1,3 +1,5 @@
+package daliycoding;
+
 public class Modulo {
     public static void main(String[] args) {
         Integer output = modulo(25, 4);
