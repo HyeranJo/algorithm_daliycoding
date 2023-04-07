@@ -4,8 +4,18 @@ import java.util.Arrays;
 
 public class IsIsogram {
     public static void main(String[] args) {
+        /* TODO:
+                아이소그램인지 여부 반환
+                아이소그램 : 각 알파벳을 한번씩만 이용해서 만든 문구
+         */
         boolean output = isIsogram("aba");
-        System.out.println(output);
+        System.out.println(output); // false
+
+        output = isIsogram("Dermatoglyphics");
+        System.out.println(output); // true
+
+        output = isIsogram("moOse");
+        System.out.println(output); // false
     }
     public static boolean isIsogram(String str) {
         if(str.isEmpty()) return true;

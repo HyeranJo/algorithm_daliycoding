@@ -2,6 +2,7 @@ package daliycoding;
 
 public class Modulo {
     public static void main(String[] args) {
+        // TODO: num1을 num2로 나눈 나머지 반환
         Integer output = modulo(25, 4);
         System.out.println(output);
     }

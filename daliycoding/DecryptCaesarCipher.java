@@ -2,12 +2,11 @@ package daliycoding;
 
 public class DecryptCaesarCipher {
     public static void main(String[] args) {
+        // TODO: 암호화된 키와 문자열을 입력받아 복호화된 문자열 리턴
         String output = decryptCaesarCipher("mnv xnt zqd qdzcx sn lnud sn hlldqrhud bntqrd", 25);
         System.out.println(output);
     }
     public static String decryptCaesarCipher(String str, int secret) {
-        // TODO:
-        // 암호화된 키와 문자열을 입력받아 복호화된 문자열 리턴
         String res = "";
         for(int i = 0; i < str.length(); ++i) {
             if(str.charAt(i) == ' ') {
